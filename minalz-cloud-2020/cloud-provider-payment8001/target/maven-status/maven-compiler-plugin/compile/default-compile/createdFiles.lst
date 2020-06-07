@@ -1,0 +1,5 @@
+cn/minalz/cloud/PaymentMain8001.class
+cn/minalz/cloud/service/PaymentService.class
+cn/minalz/cloud/service/impl/PaymentServiceImpl.class
+cn/minalz/cloud/controller/PaymentController.class
+cn/minalz/cloud/dao/PaymentDao.class
