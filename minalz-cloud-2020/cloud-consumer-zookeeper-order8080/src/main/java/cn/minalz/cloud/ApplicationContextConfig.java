@@ -1,4 +1,4 @@
-package cn.minalz.cloud.config;
+package cn.minalz.cloud;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
