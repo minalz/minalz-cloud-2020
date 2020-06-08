@@ -20,6 +20,7 @@
       <module>cloud-consumer-zookeeper-order8080</module>
       <module>cloud-consumer-consul-order8080</module>
       <module>cloud-provider-consul-payment8006</module>
+      <module>cloud-consumer-feign-order8080</module>
   </modules>
 
   <!-- 统一管理jar包版本 -->

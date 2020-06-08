@@ -1,9 +1,9 @@
 package cn.minalz.cloud.controller;
 
 
-import cn.minalz.cloud.service.PaymentService;
 import cn.minalz.cloud.entities.CommonResult;
 import cn.minalz.cloud.entities.Payment;
+import cn.minalz.cloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @description:
@@ -79,14 +80,14 @@ public class PaymentController {
     public String getPaymentLB(){
         return serverPort;
     }
-//
-//    @GetMapping(value = "/payment/feign/timeout")
-//    public String paymentFeignTimeout()
-//    {
-//        // 业务逻辑处理正确，但是需要耗费3秒钟
-//        try { TimeUnit.SECONDS.sleep(3); } catch (InterruptedException e) { e.printStackTrace(); }
-//        return serverPort;
-//    }
+
+    @GetMapping(value = "/payment/feign/timeout")
+    public String paymentFeignTimeout()
+    {
+        // 业务逻辑处理正确，但是需要耗费3秒钟
+        try { TimeUnit.SECONDS.sleep(3); } catch (InterruptedException e) { e.printStackTrace(); }
+        return serverPort;
+    }
 //
 //    @GetMapping("/payment/zipkin")
 //    public String paymentZipkin()
