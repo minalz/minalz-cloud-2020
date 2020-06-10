@@ -11,6 +11,7 @@
         <module name="cloud-consumer-consul-order8080" />
         <module name="cloud-consumer-feign-hystrix-order8080" />
         <module name="cloud-consumer-feign-order8080" />
+        <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-consumer-zookeeper-order8080" />
         <module name="cloud-consumerzk-zookeeper-order8080" />
