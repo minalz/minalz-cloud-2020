@@ -15,7 +15,7 @@ spring:
       ####读取分支
       label: master
 #rabbitmq相关配置
-rabbitmq:
+  rabbitmq:
     host: 47.96.73.9
     port: 5672
     username: zhouwei
