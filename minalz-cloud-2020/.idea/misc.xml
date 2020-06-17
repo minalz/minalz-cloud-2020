@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
         <option value="$PROJECT_DIR$/seata-storage-service2002/pom.xml" />
         <option value="$PROJECT_DIR$/seata-account-service2003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order8084/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
